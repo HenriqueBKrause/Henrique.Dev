@@ -27,4 +27,4 @@ Sinta-se à vontade para entrar em contato, estou sempre aberto a colaborações
 
 ---
 
-**Diversão e Código!** 😄✨
+**Diversão e Código!** ✨
