@@ -7,6 +7,10 @@ export const HeaderStyle = styled.header`
   z-index: 9999;
   position: fixed;
   border-bottom: 2px solid #fff;
+
+  @media screen and (max-width: 1080px) {
+    height: 6vh;
+  }
 `;
 
 export const MiniLogoStyle = styled.div`

@@ -7,15 +7,16 @@ const globalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     font-family: 'Manrope', sans-serif;
+    
    
   }
 
   body {
-    padding: 2px;
-    margin: 0px;
     
-    height: 90%;
+    margin: 0px;
+    height: 100%;
     width: 100%;
+    overflow-x: hidden;
   }
 `;
 

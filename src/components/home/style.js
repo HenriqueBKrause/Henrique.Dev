@@ -28,6 +28,7 @@ export const HomeStyled = styled.div`
     flex-direction: column; /* Muda para layout de linha em telas maiores */
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 `;
 
@@ -49,7 +50,7 @@ export const HomeTextStyle = styled.div`
   display: flex;
   align-items: center;
   text-align: center; /* Centraliza na horizontal */
-  padding: 20% 5%;
+  padding: 20rem 1rem;
   flex-direction: column;
 
   h1 {
@@ -61,11 +62,12 @@ export const HomeTextStyle = styled.div`
     @media screen and (max-width: 1080px) {
       text-align: center;
       color: #000;
+      font-size: 26px;
     }
   }
   span {
     font-size: 70px;
-    margin-top: 1rem; // Espaçamento entre as imagens e a seta
+
     color: #fff;
     cursor: pointer;
     animation: ${pulseAnimation} 2s infinite;

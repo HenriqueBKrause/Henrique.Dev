@@ -1,9 +1,6 @@
 import React from "react";
 import { HomeStyled, HomeLogoStyle, HomeTextStyle, HomeIcons } from "./style";
 import Logo from "../../assets/images/Logo.png";
-// import github from "../../assets/images/github.png";
-// import linkedin from "../../assets/images/linkedin.png";
-// Importe os ícones necessários
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
@@ -25,10 +22,13 @@ function Home() {
         </h1>
 
         <HomeIcons>
-          <a href="https://github.com/HenriqueBKrause">
+          <a href="https://github.com/HenriqueBKrause" target="_blank">
             <FaGithub size={50} />
           </a>
-          <a href="https://www.linkedin.com/in/henrique-krause-4518771b0/">
+          <a
+            href="https://www.linkedin.com/in/henrique-krause-4518771b0/"
+            target="_blank"
+          >
             <FaLinkedin size={50} />
           </a>
         </HomeIcons>
