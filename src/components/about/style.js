@@ -1,58 +1,64 @@
 import styled from "styled-components";
-import { keyframes } from "styled-components";
-
-const pulseAnimation = keyframes`
-  0% {
-    transform: scale(0.9);
-  }
-  50% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0.9);
-  }
-`;
 
 export const AboutBodyStyled = styled.div`
   display: flex;
-  height: 100vh; /* 100% da altura da tela */
+  flex-wrap: wrap;
+  min-height: 70vh;
   background: #000;
   background-size: cover;
+  align-items: center;
+  justify-content: center;
 
   @media screen and (max-width: 1080px) {
-    height: 70vh;
+    height: auto;
   }
 `;
 
 export const AboutTextStyle = styled.div`
+  width: 100%;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 5rem;
-  width: 60%;
+  line-height: 1.6;
 
   h1 {
     color: #fff;
   }
+
   h3 {
     color: #fff;
-    margin: 1rem;
+    font-size: 20px;
   }
 
-  @media screen and (max-width: 1080px) {
+  @media screen and (min-width: 768px) {
+    width: 45%;
     text-align: left;
+    align-items: flex-start;
   }
+`;
+
+export const ReadMoreButton = styled.button`
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem; /* Adicione um espaçamento acima do botão */
 `;
 
 export const AboutPicture = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
+  justify-content: flex-end;
 
-  @media screen and (max-width: 1080px) {
+  img {
     width: 80%;
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 45%;
   }
 `;

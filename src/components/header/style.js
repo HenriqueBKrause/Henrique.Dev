@@ -59,6 +59,7 @@ export const MenuStyled = styled.ul`
       padding: 1rem 3rem;
       text-decoration: none;
       outline: none;
+      font-family: "Garamond";
     }
   }
 

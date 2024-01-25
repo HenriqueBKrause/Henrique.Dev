@@ -18,7 +18,7 @@ const pulseAnimation = keyframes`
 export const HomeStyled = styled.div`
   background: url(${backgroundOne}) no-repeat center center fixed;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row; /* Altera para layout de coluna por padrão */
@@ -38,7 +38,7 @@ export const HomeLogoStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center; /* Centraliza na vertical */
-  padding: 0 6rem;
+  padding: 20rem 6rem;
 
   @media screen and (max-width: 1080px) {
     padding: 0;
