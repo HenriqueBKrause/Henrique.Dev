@@ -18,7 +18,7 @@ const pulseAnimation = keyframes`
 export const HomeStyled = styled.div`
   background: url(${backgroundOne}) no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: row; /* Altera para layout de coluna por padrão */

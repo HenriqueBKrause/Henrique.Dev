@@ -54,7 +54,7 @@ export const AboutPicture = styled.div`
   justify-content: flex-end;
 
   img {
-    width: 80%;
+    width: 8;
     max-width: 100%;
   }
 
